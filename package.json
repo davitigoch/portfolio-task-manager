@@ -1,0 +1,47 @@
+{
+  "name": "portfolio-task-manager",
+  "version": "1.0.0",
+  "description": "🚀 Professional CRUD Application - A comprehensive task & project management API built with Node.js, Express, and MongoDB. Features advanced analytics, bulk operations, data export, and professional error handling. Perfect for portfolio showcasing modern backend development skills.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/controllers/seedController.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build process needed for this project\"",
+    "lint": "echo \"Linting not configured yet\"",
+    "postinstall": "echo \"✅ Installation complete! Run 'npm run seed' to add sample data, then 'npm start' to begin.\""
+  },
+  "keywords": [
+    "node.js",
+    "express", 
+    "mongodb",
+    "crud",
+    "rest-api",
+    "portfolio",
+    "task-management",
+    "project-management",
+    "analytics",
+    "dashboard",
+    "bulk-operations",
+    "es6",
+    "async-await",
+    "mongoose",
+    "validation",
+    "error-handling"
+  ],
+  "author": "Irina",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^8.2.1",
+    "express-validator": "^7.0.1",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
