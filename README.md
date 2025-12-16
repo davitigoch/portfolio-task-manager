@@ -1,6 +1,6 @@
 # Portfolio Task Manager API
 
-🚀 A professional CRUD application for managing tasks and projects built with Node.js, Express, and MongoDB. This project showcases modern backend development practices with ES2015+ modules, async/await, RESTful API design, and comprehensive error handling.
+ A professional CRUD application for managing tasks and projects built with Node.js, Express, and MongoDB. This project showcases modern backend development practices with ES2015+ modules, async/await, RESTful API design, and comprehensive error handling.
 
 ## 🎯 Project Overview
 
@@ -40,7 +40,7 @@ This is a portfolio-ready application that demonstrates:
 - Health check endpoints
 - Database connection monitoring
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB with Mongoose ODM
